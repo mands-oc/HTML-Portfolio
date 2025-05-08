@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Amanda Oliveira</title>
+    <link rel="shortcut icon" href="./src/imagens/logotipo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/contato.css">
+
+</head>
+
+<body>
+    <div id="pagina">
+        <div class="principal corpo"><!--criei duas classes para um mesmo elemento-->
+            <header>
+                <div class="topo">
+                    <div class="menu" id="menu">
+                        <nav>
+                            <ul>
+                                <a href="./index.html">
+                                    <li>Sobre</li>
+                                </a>
+                                <a href="./habilidades.html">
+                                    <li>Habilidades</li>
+                                </a>
+                                <a href="./projetos.html">
+                                    <li>Projetos</li>
+                                </a>
+                                <a href="./contato.html">
+                                    <li>Contato</li>
+                                </a>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!--conteúdo da página-->
+            <div class="conteudo">
+                <div class="perfil">
+                    <img class="img" src="./src/imagens/perfil.png" alt="foto de perfil">
+                </div>
+                <div class="dados">
+                    <div class="titulo">
+                        <h2>Obrigada por reservar um tempo para entrar em contato. <br>
+                            Como posso ajudar você hoje?</h2>
+                    </div>
+                    <form class="form" id="form" action="">
+                        <div class="controle-form">
+                            <label for="username">Nome:</label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div class="controle-form">
+                            <label for="email">Endereço de e-mail:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="controle-form">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="mensagem" id="formMsg" cols="50" rows="10"></textarea>
+                        </div>
+                        <div class="botao">
+                            <button type="submit" id="enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="icones">
+                <div class="email">
+                    <img src="./src/imagens/rodape/email.png" alt="">
+                    <p>mands.oliveira552@gmail.com</p>
+                </div>
+                <div class="redes">
+                    <img src="./src/imagens/rodape/facebook.png" alt="">
+                    <img src="./src/imagens/rodape/github.png" alt="">
+                    <img src="./src/imagens/rodape/instagram.png" alt="">
+                </div>
+            </div>
+            <div class="desenvolvimento">
+                <p>© Copyright 2025. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

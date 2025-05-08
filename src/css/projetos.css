@@ -1,0 +1,141 @@
+.container {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #531804;
+    font-family: 'Aboreto';
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 5%;
+}
+
+.projeto {
+    margin-bottom: 60px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .imagens img {
+    width: 50%;
+    max-width: 350px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .imagens img:hover {
+    transform: scale(1.03);
+}
+
+  .descricao {
+    background-color: #531804;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F5EADD;
+    font-family: 'Crimson Text';
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+
+  }
+
+  .voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #531804;
+    color: #F5EADD;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .voltar:hover {
+    background-color: #F5EADD;
+    color: #531804;
+  }
+/* .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20vw;
+    margin: 40px 20px;
+    margin-bottom: 5vw;
+    cursor: pointer;
+}
+
+
+/* .linha {
+    background-color: #F5EADD;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 550px;
+} */
+
+/* .linha {
+    background-color: #F5EADD;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.imagens img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.imagens img:hover {
+    transform: scale(1.03);
+}
+
+.imagens:hover {
+    transform: scale(1.05);
+}
+
+.imagens img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imagens p {
+    background-color: #531804;
+    font-family: 'Crimson Text';
+    font-size: 30px;
+    font-weight: 600;
+    color: #F5EADD;
+    border-radius: 10px;
+    text-align: center;
+}  */

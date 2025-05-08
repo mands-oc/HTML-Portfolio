@@ -1,0 +1,97 @@
+.conteudo {
+    /* background-color: blueviolet; */
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.perfil {
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+.perfil img {
+    width: 300px;
+    height: 300px;
+}
+
+.titulo {
+    /* background-color:aqua ; */
+    width: 45vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /* padding-top: ; */
+}
+
+.titulo h2 {
+    color: #531804;
+    font-family: 'Crimson Text';
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.dados {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+.controle-form {
+    /* background-color: aqua; */
+    margin-top: 5%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.controle-form label{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    font-family: 'Crimson Text';
+    font-size: 18px;
+    font-weight: 400;
+    color: #531804;
+}
+
+.controle-form input, textarea {
+    display: block;
+    background-color: rgba(245, 234, 221, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+}
+
+.controle-form textarea {
+    resize: none;
+}
+
+.botao {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.botao button {
+    background-color: #531804;
+    color: #F5EADD;
+    font-family: 'Crimson Text';
+    font-size: 22px;
+    font-weight: 400;
+    width: 20%;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
