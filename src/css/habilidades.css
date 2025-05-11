@@ -1,0 +1,45 @@
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 100px; /* Espaçamento entre as linhas */
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.linha {
+    display: flex;
+    gap: 100px; /* Espaçamento entre os itens */
+    justify-content: center;
+}
+
+.icone {
+    background-color: #F5EADD;
+    border-top-left-radius: 10px; /* Borda esquerda superior arredondada */
+    border-bottom: 3px solid #531804; /* Borda inferior sólida */
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.icone img {
+    max-width: 55%;
+    max-height: 55%;
+}
+
+.html {
+    margin-left: 15px;
+}
+
+.icone p {
+    color: #531804;
+    font-family: 'Crimson Text';
+    font-size: 16px;
+    font-weight: 600;
+}
