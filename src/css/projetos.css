@@ -38,7 +38,6 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
-    cursor: pointer;
   }
 
   .imagens img:hover {
